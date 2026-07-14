@@ -6,6 +6,7 @@ const Gallery = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: flex-start;
   gap: 32px;
   padding: 32px;
   min-height: 100svh;
