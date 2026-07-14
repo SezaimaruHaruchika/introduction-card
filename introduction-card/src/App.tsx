@@ -15,30 +15,42 @@ const Gallery = styled.div`
 
 function App() {
   return (
-    <Gallery>
-      <ModernCard
-        name="Haruchika Sezaimaru"
-        avatarSrc='../../public/profile.png'
-        bio="Webシステム開発を中心に、要件理解から実装、品質確認、運用・保守まで責任を持って対応しております。
-単なる実装だけでなく、「実際の運用を想定した設計」「保守しやすいコード」を重視しています。"
-        githubUrl="https://github.com/"
-        xUrl="https://x.com/"
-      />
-      <GameCard
-        name="Haruchika Sezaimaru"
-        bio="Webシステム開発を中心に、要件理解から実装、品質確認、運用・保守まで責任を持って対応しております。
-単なる実装だけでなく、「実際の運用を想定した設計」「保守しやすいコード」を重視しています。"
-        githubUrl="https://github.com/"
-        xUrl="https://x.com/"
-      />
-      <AntiqueCard
-        name="Haruchika Sezaimaru"
-        bio="Webシステム開発を中心に、要件理解から実装、品質確認、運用・保守まで責任を持って対応しております。
-単なる実装だけでなく、「実際の運用を想定した設計」「保守しやすいコード」を重視しています。"
-        githubUrl="https://github.com/"
-        xUrl="https://x.com/"
-      />
-    </Gallery>
+    <div>
+        <h1>自己紹介カード</h1>
+      <Gallery>
+        <div>
+          <h2>モダン調のカード</h2>
+          <ModernCard
+            name="Haruchika Sezaimaru"
+            avatarSrc='../../public/profile.png'
+            bio="Webシステム開発を中心に、要件理解から実装、品質確認、運用・保守まで責任を持って対応しております。
+            単なる実装だけでなく、「実際の運用を想定した設計」「保守しやすいコード」を重視しています。"
+            githubUrl="https://github.com/"
+            xUrl="https://x.com/"
+          />
+        </div>
+        <div>
+          <h2>ゲーム調のカード</h2>
+          <GameCard
+            name="Haruchika Sezaimaru"
+            bio="Webシステム開発を中心に、要件理解から実装、品質確認、運用・保守まで責任を持って対応しております。
+  単なる実装だけでなく、「実際の運用を想定した設計」「保守しやすいコード」を重視しています。"
+            githubUrl="https://github.com/"
+            xUrl="https://x.com/"
+          />
+        </div>
+        <div>
+          <h2>アンティーク調のカード</h2>
+          <AntiqueCard
+          name="Haruchika Sezaimaru"
+          bio="Webシステム開発を中心に、要件理解から実装、品質確認、運用・保守まで責任を持って対応しております。
+  単なる実装だけでなく、「実際の運用を想定した設計」「保守しやすいコード」を重視しています。"
+            githubUrl="https://github.com/"
+            xUrl="https://x.com/"
+          />
+        </div>
+      </Gallery>
+    </div>
   );
 }
 
