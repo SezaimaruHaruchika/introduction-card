@@ -24,13 +24,13 @@ export interface ThemeType {
   };
 }
 
-// モダン調のデザイン background: 白、primary: 水色、text: 濃紺
+// モダン調のデザイン background: 灰色、primary: 濃紺、text: 白
 export const modernTheme: ThemeType = {
   name: 'modern',
   colors: {
-    background: '#ffffff',
-    primary: '#22d3ee',
-    text: '#0f172a',
+    background: '#878787',
+    primary: '#18181b',
+    text: '#ffffff',
   },
 };
 
