@@ -57,10 +57,10 @@ export function ModernCard({ name, bio, avatarSrc, githubUrl, xUrl }: Introducti
           <Bio>{bio}</Bio>
         </div>
         <SnsRow>
-          <SnsButton as="a" href={githubUrl} target="_blank" rel="noreferrer">
+          <SnsButton as="a" href={githubUrl}>
             <IconGithub size={16} /> GitHub
           </SnsButton>
-          <SnsButton as="a" href={xUrl} target="_blank" rel="noreferrer">
+          <SnsButton as="a" href={xUrl}>
             <IconX size={16} /> X
           </SnsButton>
         </SnsRow>
@@ -114,10 +114,10 @@ export function GameCard({ name, bio, avatarSrc, githubUrl, xUrl }: Introduction
           <Bio>{bio}</Bio>
         </div>
         <SnsRow>
-          <GameSnsButton as="a" href={githubUrl} target="_blank" rel="noreferrer">
+          <GameSnsButton as="a" href={githubUrl}>
             <IconGithub size={16} /> GitHub
           </GameSnsButton>
-          <GameSnsButton as="a" href={xUrl} target="_blank" rel="noreferrer">
+          <GameSnsButton as="a" href={xUrl}>
             <IconX size={16} /> X
           </GameSnsButton>
         </SnsRow>
@@ -168,10 +168,10 @@ export function AntiqueCard({ name, bio, avatarSrc, githubUrl, xUrl }: Introduct
           <Bio>{bio}</Bio>
         </div>
         <SnsRow>
-          <AntiqueSnsButton as="a" href={githubUrl} target="_blank" rel="noreferrer">
+          <AntiqueSnsButton as="a" href={githubUrl}>
             <IconGithub size={16} /> GitHub
           </AntiqueSnsButton>
-          <AntiqueSnsButton as="a" href={xUrl} target="_blank" rel="noreferrer">
+          <AntiqueSnsButton as="a" href={xUrl}>
             <IconX size={16} /> X
           </AntiqueSnsButton>
         </SnsRow>
